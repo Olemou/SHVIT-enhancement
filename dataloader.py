@@ -8,12 +8,13 @@ from torchvision import transforms
 # --------------------------
 # Config
 # --------------------------
+# sampling only a subset of classes for faster experimentation  
 desired_classes = [
     "person", "car", "bicycle", "dog", "cat",
     "bird", "chair", "couch", "laptop", "cell phone"
 ]
-max_train = 2000
-max_val = 1000
+max_train = 40000
+max_val = 10000
 
 # --------------------------
 # Load COCO via FiftyOne
