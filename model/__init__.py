@@ -1,3 +1,3 @@
-from shvit_enhancement import SHViTEnhanced
+from model.shvit_enhancement import SHViTEnhanced
 
 __all__ = ["SHViTEnhanced"]

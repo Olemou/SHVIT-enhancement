@@ -35,6 +35,7 @@ def train_one_epoch(model, dataloader, criterion, optimizer, epoch, device):
     running_loss = 0.0
     for images, labels in dataloader:
         images = images.to(device)
+        labels = labels.to(device)
         # Move labels to device if necessary
         # Assuming labels is a list of lists, we keep it on CPU for loss calculation
         optimizer.zero_grad()
@@ -53,6 +54,7 @@ def validate(model, dataloader, criterion, device):
     with torch.no_grad():
         for images, labels in dataloader:
             images = images.to(device)
+            labels = labels.to(device)
             # Move labels to device if necessary
             outputs = model(images)
             loss = criterion(outputs, labels)

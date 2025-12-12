@@ -30,6 +30,7 @@ def cosine_schedule(epoch, optimizer, base_lrs, warmup_epochs, max_epochs, min_l
     return lrs
 
 # === Separate head and backbone parameters ===
+SHViTEnhanced = SHViTEnhanced()
 head_params = list(SHViTEnhanced.head.parameters())
 backbone_params = [p for n, p in SHViTEnhanced.named_parameters() if "head" not in n]
 
