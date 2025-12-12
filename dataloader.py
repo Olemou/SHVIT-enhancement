@@ -12,8 +12,8 @@ desired_classes = [
     "person", "car", "bicycle", "dog", "cat",
     "bird", "chair", "couch", "laptop", "cell phone"
 ]
-max_train = 35000
-max_val = 6000
+max_train = 2000
+max_val = 1000
 
 # --------------------------
 # Load COCO via FiftyOne
