@@ -50,7 +50,9 @@ def train_one_epoch(model, dataloader, criterion, optimizer, epoch, device):
 
 def validate(model, dataloader, criterion, device):
     model.eval()
-    val_running_loss = 0.0
+    val_running_loss = 0.0    
+    correct = 0      # <-- FIX
+    total = 0        # <-- FIX
     with torch.no_grad():
         for images, labels in dataloader:
             images = images.to(device)
