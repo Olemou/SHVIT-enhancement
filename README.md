@@ -1,5 +1,5 @@
 
- ##clone the repository:
+ ## clone the repository:
 <div align="left" style="margin-left:10%;">
 <pre>
 <code>
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 </pre>
 </div>
 
- ##Install local package in editable mode:
+ ## Install local package in editable mode:
 <div align="left" style="margin-left:10%;">
 <pre>
 <code>
