@@ -1,4 +1,5 @@
 
+ ##clone the repository:
 <div align="left" style="margin-left:10%;">
 <pre>
 <code>
@@ -11,7 +12,7 @@ git clone  https://github.com/Olemou/SHVIT-enhancement.git
 <div align="left" style="margin-left:10%;">
 <pre>
 <code>
-3️⃣ ## Install dependencie:##
+##Install dependencie:
 
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -19,7 +20,7 @@ pip install -r requirements.txt
 </pre>
 </div>
 
-4️⃣ ## Install local package in editable mode:
+ ##Install local package in editable mode:
 <div align="left" style="margin-left:10%;">
 <pre>
 <code>
